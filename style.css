@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(241, 238, 238);
+}
+
+
+
+.imagem {
+    
+    object-fit: contain;
+    width: 200px;
+    max-width: 500px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+
+.imagema {
+    
+    object-fit: contain;
+    width: 70px;
+    max-width: 500px;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+
+.textoabaixo {
+    
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    font-size: 16vpx;
+}
+
+.formulario {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 10px;
+    position: relative;
+    margin-top: 200px;
+    
+}
+
+
+.formulario1 {
+    flex-direction: column;
+    background-color: white;
+}
+
+
+#Email {
+    color: var(--color-input-label) !important;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+#Senha {
+    color: var(--color-input-label) !important;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#caixaemail {
+    border-radius: 4px;
+}
+
+
+#caixasenha {
+    border-radius: 4px;
+}
